@@ -1,13 +1,13 @@
 import google.generativeai as ai
 import streamlit as st
 
-ai.configure(api_key="AIzaSyAjxcWvjDxmvyy_bJWh6z54Vgusr3yMh-Y")
+ai.configure(api_key="AIzaSyBWsDCig1OZJBoUgwYnyjM_oTQeztoPXGM")
 
 model=ai.GenerativeModel(
-     "gemini-2.5-pro",
+     "gemini-2.5-flash-lite",
     generation_config={
         "temperature": 1,
-        "max_output_tokens":1500,
+        "max_output_tokens":5000,
 
     }   
 
